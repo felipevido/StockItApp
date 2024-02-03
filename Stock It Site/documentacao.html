@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Website Title -->
+    <title>Documentação Stock It</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Pré Carregamento -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+
+
+        <!-- Logotipo da Barra de Navegação -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="Logotipo Stock It"></a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#header">INICIO <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#origem-historia">ORIGEM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#conceituacao">CONCEITO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#prototipo">PROTÓTIPO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#funcionalidades">FUNCIONALIDADES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#administradores">ADMINISTRADORES</a>
+                </li>
+                <!-- Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="index.html#details" id="navbarDropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false">MAIS</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#atualizacoes"><span class="item-text">ATUALIZAÇÕES</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="#exclusoes"><span class="item-text">EXCLUSÕES</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="#banco-de-dados"><span class="item-text">BANCO DE
+                                DADOS</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="#desafios"><span class="item-text">DESAFIOS</span></a>
+                    </div>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#contact">CONTATO</a>
+                </li>
+            </ul>
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+        </div>
+    </nav>
+
+    <!-- CABEÇALHO -->
+    <header id="header" class="ex-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>DOCUMENTAÇÃO</h1>
+                    <br>
+                    <a class="btn-solid-lg page-scroll" target="_blank" href="PTCC.pdf">Pré TCC</a>
+                    <a class="btn-solid-lg page-scroll" target="_blank"
+                        href="https://www.figma.com/proto/6WtgDFMYpJx66bUjx6eFjN/MODELO-APP-STOCK-IT?node-id=12%3A126&scaling=contain&page-id=0%3A1&starting-point-node-id=154%3A2&show-proto-sidebar=1">Protótipo
+                        Figma</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <a href="index.html">Inicio</a><i class="fa fa-angle-double-right"></i><span>Documentação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Conteúdo da Documentação -->
+    <div class="ex-basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="text-container">
+                        <br id="origem-historia">
+                        <h5><strong>Atenção: Toda informação e representação gráfica apresentada na documentação abaixo
+                                está sujeita a alterações em consequência do processo de desenvolvimento final do
+                                projeto.</strong></h5>
+                        <br>
+                        <h3>Origem e História</h3>
+                        <p>A proposta de desenvolvimento deste aplicativo surgiu de <strong>Felipe Vido.</strong> Felipe
+                            Vido tem 18 anos
+                            e trabalha em um pequeno comércio da cidade de <strong>Arealva</strong>. O mesmo é
+                            responsável pela parte da
+                            reposição, que por sua vez também implica no <strong>controle de mercadorias, datas e
+                                organização do
+                                estoque.</strong> <br>
+                            O comércio, chamado <strong>Quitanda do Primo</strong>, possui fluxos e picos de clientes
+                            no horário expediente de Felipe Vido, por conta disso, o mesmo alegava não ter tempo
+                            suficiente para
+                            gerenciar o inventário de produtos e estoque do estabelecimento de forma eficiente, pois
+                            tinha que ajudar em outras funções, como no atendimento aos clientes. <br>
+                            Em paralelo, Felipe Vido cursa <strong>Desenvolvimento de Sistemas e Informática</strong> na
+                            <strong>Escola Técnica Estadual (Bauru)</strong>, onde o módulo atual era
+                            <strong>Planejamento do TCC em Informática. </strong>
+                            Felipe Vido logo percebeu que utilizar o sistema de controle da empresa seria muito
+                            complicado, uma vez que o sistema que controla as mercadorias está integrado em outro
+                            sistema ERP de gestão muito avançado. Além disso, o computador que possui esse sistema de
+                            gerência ficava no escritório.
+                            Todavia, seria impossível controlar a entrada e saída de produtos por meio do que o
+                            estabelecimento oferecia. <br>
+
+                            <strong>
+                                <p>Foi ai que Felipe Vido teve a ideia de desenvolver seu próprio aplicativo.</p>
+                            </strong>
+                        </p>
+
+                        <p>O desenvolvimento de um App só é relevante quando o mesmo possui a finalidade de
+                            solucionar adversidades e problemas. Felipe Vido deparava-se com vários problemas que
+                            deveriam ser solucionados em seu ambiente de trabalho, como por exemplo:</p>
+                        <br>
+
+                        <strong><i>
+                                <ul class="list-unstyled li-space-lg indent">
+                                    <li class="media">
+                                        <i class="fas fa-square"></i>
+                                        <div class="media-body">"As mercadorias ficam muito desorganizadas e misturadas.
+                                            Há
+                                            muita perca de tempo quando você precisa achar um produto especifíco,
+                                            entretanto
+                                            não
+                                            sabe onde encontra-lo em meio aos produtos misturados."</div>
+                                    </li>
+                                    <li class="media">
+                                        <i class="fas fa-square"></i>
+                                        <div class="media-body">"Alguns produtos não possuem uma venda tão alta. Os
+                                            mesmos
+                                            acabam ficando congestionados no estoque e acabam atingindo a data de
+                                            validade
+                                            sem
+                                            que ninguém perceba."</div>
+                                    </li>
+                                    <li class="media">
+                                        <i class="fas fa-square"></i>
+                                        <div class="media-body">"Diferentemente, algumas mercadorias possuem um fluxo de
+                                            venda
+                                            alto e se esgotam sem que a gente perceba com antecedência sufiente para
+                                            realizar um
+                                            novo pedido ao fornecedor."</div>
+                                    </li>
+                                    <li class="media">
+                                        <i class="fas fa-square"></i>
+                                        <div class="media-body">"Muitos produtos possuem uma data de validade
+                                            indeterminada.
+                                            Por
+                                            conta disso não damos tanta importância em coloca-los totalmente na área de
+                                            venda.
+                                            Porém, mercadoria parada no estoque gera prejuízo e não há nada que nos
+                                            avise
+                                            que um
+                                            produto está em excesso no estoque para que possamos fazer uma liquidação de
+                                            estoque."</div>
+                                    </li>
+                                    <li class="media">
+                                        <i class="fas fa-square"></i>
+                                        <div class="media-body">"Não conseguimos acessar o computador de controle das
+                                            notas
+                                            ficais para ver quais mercadorias novas chegaram ao estabelecimento, uma vez
+                                            que
+                                            o
+                                            computador fica no escritório e somente o cargo administrativo tem acesso ao
+                                            sistema."</div>
+                                    </li>
+                                    <li class="media">
+                                        <i class="fas fa-square"></i>
+                                        <div class="media-body">"Mesmo que consigamos ter uma noção do que chega e o que
+                                            sai,
+                                            decorar onde cada produto fica é muito complicado diante de um inventário de
+                                            estoque
+                                            grande..."</div>
+                                        <div id="conceituacao"></div>
+                                    </li>
+                                </ul>
+                            </i></strong>
+                    </div>
+
+                    <div class="text-container">
+                        <h3>Conceituação</h3>
+                        <p>O jovem repositor, também Designer, deu inicio ao desenvolvimento do aplicativo, uma vez que
+                            o objetivo deste é solucionar os problemas acima e tornar as tarefas relacionadas mais
+                            eficientes. O desenvolvimento começou pela identidade visual do projeto.
+                            As cores escolhidas foram Branco e Marrom. <strong>A cor branca representa a
+                                simplicidade</strong> enquanto a cor <strong>marrom remete as caixas de papelão</strong>
+                            referêntes as mercadorias que compõem o cenário de um estoque. <br> O logotipo representa
+                            uma caixa
+                            de papelão, onde a parte da tampa superior é substituida por uma seta que vem em sentido de
+                            queda para dentro da caixa. A caixa pode ser interpretada como seu estoque e seta como o
+                            fluxo de lotes que entram nele.
+                            <br><br>
+                            Com o nome também não poderia ser diferente. O nome <strong>Stock It</strong>, oriundo da
+                            língua inglesa, significa <strong>"Estoque Isso"</strong> ou <strong>"Estoque
+                                Aquilo".</strong>
+                            <br><br>
+                            Felipe Vido decidiu que o aplicativo teria uma interface amigável, pelo seguinte fato:
+                            <strong><i>"Quero que meu aplicativo também seja usado por aquelas pessoas que não possuem
+                                    tanto conhecimento ou habilidade com tecnologia, ou até mesmo a dificuldade na
+                                    compreensão da utilização e funções de um aplicativo.</i></strong>
+                        <div id="prototipo"></div>
+                        <br><br>
+                        Pelo motivo acima, o aplicativo foi desenvolvido com nomes objetivos, ícones diretos e
+                        funções bem classificadas. <i>O projeto ainda é definido como protótipo versão Beta,
+                            portanto, sinta-se livre para recomendar melhorias e apresentar suas críticas
+                            construtivas.</i>
+
+                        </p>
+                    </div>
+                    <div class="text-container">
+                        <h3>Desenvolvimento do Protótipo</h3>
+                        <p>Até o momento presente, o prótotipo do aplicativo foi desenvolvido focando na parte gráfica
+                            utilizando plataformas e softwares como:</p>
+                        <strong>
+                            <ul class="list-unstyled li-space-lg indent">
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body">Adobe Photoshop CC 2018</div>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled li-space-lg indent">
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body">Adobe Illustrator CS6</div>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled li-space-lg indent">
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body">Figma</div>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled li-space-lg indent">
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body">Freepik</div>
+                                </li>
+                            </ul>
+                            <div id="funcionalidades"></div>
+                        </strong>
+                        <p>A plataforma FIGMA auxiliou a equipe de desenvolvedores diretamente na simulação de um
+                            aplicativo produzido, bem como nas funções e interações UI/UX com o usuário final. O mesmo,
+                            ainda encontra-se em fase de correção de bugs, adição de recursos e melhorias.
+                        </p>
+                    </div>
+
+                    <div class="text-container">
+                        <h3>Funcionalidades</h3>
+                        <p>O aplicativo conta com funções que facilitam na organização e controle do estoque, bem como
+                            de informações importantes das mercadorias. A funcionalidades que você encontra na versão
+                            beta ainda encontram-se em fase de testes e correção. <br>
+                            <i>Quanto mais informações sobre a mercadoria você fornecer ao App, mais opções de filtros e
+                                controles ficarão disponíveis.</i>
+                            Em breve, mais funções que visam aumentar a capacidade do App quanto a eficiencia e
+                            velocidade das ações do usuário, serão liberadas e testadas por meio de atualizações que
+                            seguem em analise.
+                            <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Entrada e Saída: </strong>Na tela de entrada é onde
+                                    você registra a mercadoria que está entrando no estoque. Você precisa fornecer
+                                    alguns dados como:<strong> Nome do Produto, Fornecedor, Data de Entrada, Data de
+                                        Validade e Quantidade.</strong>
+                                    <br><br>
+                                    Tais informações serão usadas para o controle daquele lote. A Data de Validade te
+                                    permitirá receber avisos sobre o vencimento do produto. Você também pode adicionar
+                                    esse produto a alguma pasta de mercadorias. Dentro da pasta você consegue encontrar
+                                    o produto pelo nome que você forneceu e também encontrar produtos de um fornecedor
+                                    em comum.
+                                    <br><br>
+                                    Na tela de Saída, você consegue retirar um produto do estoque. Para fazer isso você
+                                    pode simplesmente, entrar em uma pasta, encontrar o produto que deseja remover e
+                                    clicando no sinal de <strong>BAIXA</strong> você será redirecionado para a tela de
+                                    Saída com aquele produto pronto para ser removido do estoque.
+                                    <br><br>
+                                    Ou, você pode ir direto na função <strong>BAIXAS</strong>, no campo <strong>NOME DO
+                                        PRODUTO</strong> coloque o nome do produto que deseja remover. Você pode
+                                    escolher a data da saída daquele produto, tendo as opções de deixar como
+                                    <STRONG>Saída no momento atual</STRONG> ou escolha o dia que você removeu
+                                    aquele produto do estoque. Não se esqueça de selecionar a quantidade daquela
+                                    mercadoria que foi retirada.
+                                </div>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Movimentações: </strong>Esse recurso serve para te
+                                    mostrar tudo que ocorreu dentro do aplicativo. A tela de movimentações age da mesma
+                                    maneira que o histórico de um navegador. Você consegue ver quais produtos foram
+                                    removidos do estoque ou quais foram adicionados. Você também consegue ver quais
+                                    produtos foram devolvidos aos estoque.
+                                    <br><br>
+                                    Também é possível ver quando ocorreu tal movimentação. Além disso, os filtros
+                                    desse recurso te permite escolher o que quer ver, seja somente <strong>ENTRADAS -
+                                        SAÍDAS - DEVOLUÇÕES.</strong> Também é possível escolher ver as movimentações
+                                    de um período especifíco.
+                                </div>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Notificações: </strong>Essa função é o alerta do
+                                    usuário para
+                                    qualquer evento que ocorra no aplicativo. É a função que chama o usuário pra
+                                    outras telas do App. Em notificações você encontra os alertas ou avisos de algum
+                                    evento que ocorreu (um evento pode ser uma movimentação, uma devolução, entrada ou
+                                    saída, entre outros.).
+                                    <br><br>
+                                    A tela de notificações avisa quando algum evento ocorre na tela de movimentações.
+                                    Quando algum produto é adicionado ou removido. Quando alguma mercadoria vence ou
+                                    quando alguma mercadoria econtra-se em situação de excesso ou escassez. Através da
+                                    tela de notificação você consegue ser redirecionado rapidamente para a tela do
+                                    evento que foi notificado.
+                                    <br><br>
+                                    Os filtros dessa função te permite ver as notificações que deseja, podendo ser
+                                    alternadas entre: <strong>VALIDADE, PRAZOS, MOVIMENTAÇÕES (ENTRADAS - SAÍDAS -
+                                        DEVOLUÇÕES), OFERTAS, SUGESTÕES.</strong> Também é possível escolher ver as
+                                    notificações de um período especifíco.
+                                    <br><br>
+                                    Nas configurações da função de notificação você pode personalizar por completo
+                                    quando e onde quer que haja monitoramento e avisos. Você consegue
+                                    definir regras de notificações específicas para uma pasta de mercadorias, por
+                                    exemplo: caso você não queria que a pasta de produtos de higiêne mostre notificações
+                                    sobre <strong>ESCASSEZ</strong>, você consegue, através das regras de notificação,
+                                    bloquear a função <STRONG>NOTIFICAR ESCASSEZ DE PRODUTOS</STRONG> somente para
+                                    aquela pasta.
+                                </div>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Devoluções: </strong>Essa função foi adicionada devido
+                                    ao fato de que você pode remover um produto do estoque por equívoco. Desta maneira,
+                                    através das telas de <strong>SAÍDA, MOVIMENTAÇÕES E NOTIFICAÇÕES</strong> ao clicar
+                                    nos detalhes de tal evento você encontra a opção <STRONG>DEVOLVER.</STRONG>
+                                    <br><br>
+                                    Ao selecionar a opção devoluçao, o produto volta para a pasta que havia sido
+                                    incluido
+                                    quando foi adicionado no estoque. <i>A devolução traz o produto de volta ao estoque
+                                        com a quantidade que foi informada no momento da baixa no estoque. Além disso, a
+                                        opção devolução fica disponível para produtos que foram removidos do estoque em
+                                        até 2 dias.</i>
+                                </div>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Lembretes: </strong>A funcionalidade de lembrete foi
+                                    incluida pensando em uma futura atualização que visa lembrar o usuário de ações que
+                                    ficaram pendentes. No momento, o recurso de lembrete te permite adicionar notas
+                                    sobre
+                                    algo que você deve fazer. As notas ficam expostas na tela inicial do aplicativo para
+                                    que você se depare com elas toda vez que abrir o App.</div>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Exportação de Dados: </strong>Essa função possuí a
+                                    finalidade de compartilhar os dados que o App armazena. Você encontra essa opção na
+                                    tela de configurações do App ou na tela de Visão Gestora.
+                                    <br><br>
+                                    A diferença entre um e outro é que, na tela de configurações, quando é selecionado
+                                    <strong>EXPORTAR DADOS</strong> você consegue escolher e exportar uma oasta de
+                                    mercadorias com os detalhes dessas mercadorias em algum formato, como por exemplo:
+                                    PDF
+                                    ou Excel. Já na opção de exportação encontrada na tela de Visão Gestora, você
+                                    consegue exportar os dados do App em geral e não somente das listas. Como por
+                                    exemplo: os
+                                    fluxos de diversos eventos citados acima.
+                                </div>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Pastas e Listas: </strong> (Você pode interpretar o
+                                    nome Pasta e o nome Lista no mesmo sentido) - Esse recurso é um dos mais importantes
+                                    para o aplicativo, uma vez que te auxilia a manter as mercadorias organizadas.
+                                    Imagine o aplicaito como seu estoque a as pastas como prateleiras. Dentro de cada
+                                    pasta você encontra uma lista de produtos classificados por algum critério.
+                                    <br><br>
+                                    Você pode criar pastas que contenham listas somente de mercadorias voltadas à
+                                    higiene, como um exemplo. Para começar sua lista de mercadorias, você deve antes,
+                                    criar uma pasta para guardar essa lista. Você encontra essa opção na tela inicial.
+                                    <br><br>
+                                    Dê um nome à sua pasta. Você pode até escolher uma cor pra ela e também uma
+                                    descrição. Quando criada, comece a adiconar produtos. A partir daí, você
+                                    conseguirá definir regras de notificações, como foi dito nos tópicos referêntes
+                                    acima. <br>
+                                    Em uma lista já criada, você pode ver os detalhes da mesma, adicionar ou remover
+                                    itens. <i>(Utilizando esses recursos, você pode ser redirecionado para outras telas
+                                        do App para que tudo funcione da maneira correta).</i>
+
+                                </div>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Visão Gestora: </strong>Essa tela pode ser considerada
+                                    o paínel
+                                    de controle. Ela não tem as mesmas funções que o Dashboard Web do
+                                    Administrador, mas o usuário do aplicativo consegue analisar alguns dados sobre o
+                                    App. Como por exemplo: <strong>Quantidade de listas, quantidade de mercadorias,
+                                        vencimentos e ofertas sugeridas, número de lembretes, utilizadores do perfil,
+                                        entre outros.</strong>
+                                    <br><br>
+                                    Você também pode aplicar filtros, como por exemplo exibir os dados que correspondem
+                                    somente ao mês atual. Também é possível exportar todos os dados apresentados em
+                                    algum formato (PDF ou Excel).
+                                </div>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Configurações: </strong>Os parâmetros dessa tela
+                                    incluem a
+                                    exclusão de listas e do perfil. Encontra-se a opção de exportação de dados, como
+                                    dito nos tópicos referêntes acima. Pelas configurações você consegue acessar a
+                                    Visão Gestora do App e ver os dados do seu perfil.
+                                    <br><br>
+                                    Você encontra a função Administrar Usuários. Essa função faz a conexão entre o
+                                    aplicativo e o Dashboard. A mesma ainda encontra-se em processo de desenvolvimento.
+                                    A opção <strong>Notificações</strong> te leva até as configurações das notificações
+                                    do aplicativo, como explanado no tópico das notificações, acima.
+
+                                </div>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Prazos e Quantidades: </strong> Ajustando os prazos e
+                                    quantidades na tela de <strong>PRAZOS</strong> você garante o funcionamento correto
+                                    de outras funções do aplicativo, como os alertas e avisos.
+                                    Com essa função você consegue definir a partir de qual quantidade um produto deve
+                                    ser considerado em excesso ou em situação de escassez. Dessa meneira o App sabe
+                                    quando te sugerir uma compra ou uma liquidação de estoque daquele produto.
+                                    <br><br>
+                                    Quanto aos avisos de vencimento, você pode definir uma carência de tempo antecipada
+                                    para o aviso de uma mercadoria que está prestes a atingir sua data de validade.
+                                    Basta selecionar qual o tempo antes do vencimento o aplicativo deve te alertar.
+                                    <br><br>
+                                    <i>Você pode consigurar os parêmtros de prazos e quantidades para todas as pastas ou
+                                        pode escolher uma pré-configuração diferente para cada pasta.</i>
+
+                                </div>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Sugestões: </strong>As sugestões ficam na mesma tela
+                                    dos prazos. Essa funcionalidade implica no alerta que o App te envia para que você
+                                    compre ou venda algo do estoque. Quando um produto está acabando, o aplicaitvo emite
+                                    uma sugestão para que você entre em contato com o fonecedor a fim de evitar ficar
+                                    sem tal mercadoria.
+                                    <br><br>
+                                    Em pararelo, também temos as sugestões de ofertas, quando o aplicativo te sugere
+                                    colocar um produto em oferta devido a uma grande quantidade daquela mercadoria
+                                    cogestionada no estoque ou devido a um período de tempo longo desde que aquele
+                                    produto entrou no estoque.
+                                    <br><br>
+                                    As sugestões de ofertas serão enviadas de acordo com o requisito que você seleciona:
+                                    <strong>Excesso de Mercadorias</strong> ou <strong>Tempo de Estoque</strong> como
+                                    explicado acima. Do mesmo medo, as sugestões de compra ao fornecedor serão enviadas
+                                    de acordo com um desses dois requisitos que você seleciona: <strong>Escassez de
+                                        Mercadorias</strong> ou <strong>Data de Validade</strong>.
+                                </div>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"> <strong>Perfil: </strong>O perfil do usuário que utiliza o
+                                    aplicativo ainda está em processo de desenvolvimento. Mais funções e opções serão
+                                    integradas à essa tela, posteriormente em atualizações.
+                                    <br><br>
+                                    No momento, a tela de perfil exibe o ID e E-mail do usuario. O ID é um número gerado
+                                    automaticamente no Dashboard, com o intuito de
+                                    identificar um usuário. Também é possível adicionar e editar um nome próprio de
+                                    usuário.
+                                    <br><br>
+                                    Na hora do Login você fornece algumas informações, como data de nascimento, país,
+                                    informações de contato e outras. Esses dados são apresentados na tela de Perfil do
+                                    App. Você também visualiza qual é sua função dentro do aplicativo, podendo ser
+                                    <strong>USUÁRIO</strong> ou <strong>ADMINISTRADOR</strong>.
+                                    <br><br>
+                                    <div id="administradores"></div>
+                                    <i>Saiba mais sobre informações de Login e funções no tópico abaixo que trata da
+                                        parte avançada do sistema <strong>Stock It Admins.</strong></i>
+                                </div>
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+
+                    <div class="text-container">
+                        <h3>Dashboard Administradores</h3>
+                        <p>Apesar do aplicativo Stock It ser voltado para os funcionários, por uma questão de lógica,
+                            ele traz consigo um Dashboard que apresenta informações mais avançadas. Somente os
+                            administradores e gerentes do estabelecimento devem ter acesso ao <strong>Stock It
+                                Admins.</strong>
+                            <br><br>
+                            Essa plataforma ainda está em processo de conceituação e planejamento, uma vez que o
+                            desenvolvimento da mesma envolve muito mais recursos do que o aplicativo. O Dashboard contém
+                            várias telas e funções que proporcinam controle e visão ao gestor.
+                            <br><br>
+                            Para a primeira utilização do sistema por um administrador, é preciso criar uma conta. Os
+                            dados que precisam ser forncecidos envolvem <strong>Nome, Sobrenome e Dados de
+                                Contato.</strong> Até o desenvolvimento atual, esses são os dados necessários para que o
+                            usuário tenha acesso ao Dashboard. Entretando, há probabilidade de mais dados serem
+                            solicitados para o cadastro de um usuário no Dashboard.
+                            <br><br>
+                            <strong>É importante ressaltar que, assim como toda a estrutura do aplicativo e do site, a
+                                conceituação do Dashboard pode ser alterada em alguns parâmetros.</strong> Assim que um
+                            usuário cria uma conta no aplicativo, o adminstrador consegue cadastrar tal usuário em seu
+                            Dashboard, dessa maneira ele terá acesso as ações e atividades de tal usuário que
+                            corresponde ao seu funcionário. Veja abaixo o que o administrador consegue fazer através do
+                            Dashboard Stock It Admins:
+                        </p>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Usuários: </strong>O administrador consegue ver quantos
+                                    usuários usam o aplicativo em seu estoque. Consegue ver também o período de
+                                    atividade
+                                    e cada ação que aquele funcionário realizou dentro do App e de seu estoque.
+                                    <br><br>
+                                    Os dados de cadastro de um usuário são liberados para o gerente do Dashboard, onde o
+                                    mesmo pode permitir ou proibir acesso do usuário no App.
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Fonecedores: </strong>Pelo Stock It Admins também será
+                                    possível controlar, de maneira básica, o contato e atividade de fornecedores de
+                                    mercadorias que foram registradas através do aplicativo. Essa função ainda
+                                    encontra-se em análise para um melhor aperfeiçoamento da capacidade do Dashboard.
+                                    <br><br>
+                                    Assim como é possível ver a quantidade e mais informações sobre os fornecedores,
+                                    você
+                                    também consegue ver a quantidade e informações de produtos, mercadorias e lotes do
+                                    seu estoque registrados no aplicativo.
+                                    <i>É importante lembrar, que para um Dashboard mais detalhado, o registro de
+                                        produtos e qualquer ação dentro do App deve ser feita da maneira mais adequada e
+                                        detalhada o possível.</i>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Frente de Caixa: </strong>Como dito anteriomente, também
+                                    é possível encontrar todos os registros de mercadorias e pastas dentro do seu
+                                    Dashboard. Uma nova atualização prevê o controle financeiro básico dos valores
+                                    gastos com mercadorias ou lucros com as liquidações de estoque sugeridas pelo App.
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Lembretes: </strong>Será possível ver os lembretes que
+                                    os usuários adicionarem no aplicativo e o administrador também será capaz de enviar
+                                    avisos ao usuários através do Dashboard.
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Registros e Informações: </strong> O administrador do
+                                    sistema também
+                                    conseguirá registrar e dar baixas em mercadorias atráves do Stock It Admins. A
+                                    manipulação de produtos já registrados no aplicativo é liberada ao Dashboard.
+                                    <br><br>
+                                    A equipe de desenvolvedores do projeto planejou um espaço próprio dentro do
+                                    Dashboard onde o administrador pode encontrar novidades e avisos de futuras
+                                    atualizações. O gestor do Stock It Admnis pode também, por esse mesmo campo,
+                                    contatar os representantes do sistema ou enviar alertas de falhas para que possamos
+                                    ajudar.
+                                    <br><br>
+                                    Da mesma forma, o administrador consegue criar, excluir e manipular as pastas já
+                                    criadas pelo usuário do aplicativo.
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Dados de Contato e Personalização: </strong> Como foi
+                                    dito acima, o
+                                    espaço de contato apresentará informações de contato e suporte para o utilizador da
+                                    plataforma. Também conterá campos de mídias sociais onde o usuário do Dashboard pode
+                                    ir direto para as redes sociais do projeto e ficar por dentro do que anda
+                                    acontecendo.
+                                    <br><br>
+                                    Caso o Aministrador queira, ele pode personalizar alguns aspectos gráficos da
+                                    plataforma. <i>Estamos trabalhando para oferecer mais opções de personalizações.</i>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Eventos: </strong>É possível ver o histórico de
+                                    movimentações e notificações recentes pelo Dashboard. Os eventos mostrados no
+                                    Aplicativo também são mostrados no Dashboard do Administrador. É possível ver
+                                    gráficos e tabelas para cada evento, como: <strong>Devoluções, Vencimentos,
+                                        Entradas, Saídas, Ofertas, Sugestões de Compras.</strong>
+                                    <br><br>
+                                    Os dados são mostrados de maneira mais estratégica ao administrador, com
+                                    quantidades, períodos, usuário responsável pelo evento. Também é possível realizar a
+                                    exportação desses eventos para algum formato. <i>Os formatos para exportação de
+                                        informações ainda estão em processo de analise e possibilidade.</i>
+                                    <div id="atualizacoes"></div>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>São essas e muitas outras funções e ferramentas que serão integradas ao Dashboard do Stock It
+                            Admins.</p>
+                    </div>
+
+                    <div class="text-container">
+                        <h3>Atualizações</h3>
+                        <p>Apesar do aplicativo e plataforma ainda encontrarem-se em período de testes e prototipagem,
+                            muitas atualizações já estão programadas e em análise caso as primeiras funções, já
+                            explanadas, funcionem como o esperado.
+                            <br><br>
+                            Com a finalidade de evitar o sobrecarregamento de tarefas e recursos aos desenvolvedores, as
+                            funções mais complexas serão liberadas ao App e Dashboard gradativamente. Porém,
+                            apresentamos aqui um visão e conceito dessas novidades:
+                        </p>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Seção do Repositor: </strong>Essa seção será elaborada
+                                    pensando na reposição. Onde o usuário do App encontrará uma tela que representa uma
+                                    lista (bloco de anotações) e nessa lista em branco, de maneira dinâmica, o usuário
+                                    consegue ir adicionando produtos (os que serão repostos). <br>
+                                    Uma vez que a lista está pronta, o usuário consegue marcar os itens da lista que
+                                    já foram repostos e os que ainda não foram, tudo isso através de caixas de seleção
+                                    que destacam os itens pendentes e ocultam os itens repostos. <br>
+                                    Concatenando a isto, essa atualização prevê a opção de selecionar a quantidade do
+                                    item a
+                                    ser reposto, sendo assim, conforme o usuário digita o nome do produto, o App mostra
+                                    sugestões para que o usuário possa selecionar o produto correspondente e depois
+                                    informar a quantidade para a reposição daquele produto. Quando o usuário confirma
+                                    que já repositou tal item que ele adicionou à lista, o App registra uma baixa
+                                    automáticamente com a quantidade informada na reposição.
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Datas de Validade: </strong>Sabemos que, em alguns
+                                    estabelecimentos, tipos de mercadorias específicas nem chegam entrar no estoque pois
+                                    são colocados na área de venda de imediato. Quando isso acontece é provável que o
+                                    usuário não registre a entrada dessa mercadorias no aplicativo, uma vez que a mesma
+                                    nem chegou ir para o estoque.
+                                    <br><br>
+                                    Dessa maneira, as opções de prazos e sugestões não serão efetivadas para tal
+                                    mercadoria, porém é de suma importância o usuário ter controle da data de validade,
+                                    mesmo de um produto que não tenha sido registrado no App como entrada no estoque.
+                                    <br><br>
+                                    Como solução, iremos integrar ao aplicativo, uma seção somente com os registros de
+                                    todas as datas de validade de todas as mercadorias <strong>que já foram registradas
+                                        no App e daquelas que não serão registradas no App como entrada no
+                                        estoque.</strong> Dessa maneira, o usuário pode cadastrar a data de validade de
+                                    uma mercadoria que ainda nem entrou no estoque, e mesmo assim receber os alertas de
+                                    vencimento.
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Lista de Compras: </strong>Uma nova função que está na
+                                    fila de desenvolvimento para ser lançada como atualização é a <strong>Lista de
+                                        Pedidos ao Fornecedor</strong>. A partir das sugestões de compras que o App
+                                    envia ao usuário, será possível, através de uma nova opção, adicionar aquele produto
+                                    que está em falta no qual foi sugerido, a uma lista de pedidos.
+                                    <br><br>
+                                    Dessa maneira, o processo de organização se tornará muito mais fácil. O
+                                    administrador conseguirá ver essa lista no Dashboard, bem como o usuário no
+                                    aplicativo.
+                                    <br><br>
+                                    O usuário poderá criar a lista de pedidos e adicionar itens manualmente ou conforme
+                                    as sugestões do App, como dito acima. Também será possível, classificar e dividir os
+                                    itens na lista por fornecedor em comum, por exemplo.
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Lista de Fornecedores e Multi-estoque:
+                                    </strong>Posteriomente,
+                                    a equipe de desenvolvedores pretende incluir uma seção somente para contato,
+                                    informações e recomendações de fornecedores do comércio.
+                                    <br><br>
+                                    Já a funcionalidade de Multi-estoque será desenvolvida pensando nos comércios e
+                                    estabelecimentos que possuem mais um estoque. Desta forma, será possível evitar o
+                                    sobrecarregamento do aplicativo ou poluição de informações caso muitos produtos
+                                    estejam cadastrados no mesmo estoque dentro do App: <strong>Exemplo:</strong>
+                                    <i>Mercadorias de 3 estoques diferentes que compartilham a mesma pasta de produtos
+                                        dentro do
+                                        aplicativo = 1 lista de mercadorias com muitos produtos de estoques
+                                        diferentes.</i>
+                                    <br><br>
+                                    A opção <strong>Criar Nova Unidade de Estoque</strong> cria outra repartição vazia
+                                    dentro aplicativo, onde você pode adicionar novas pastas vazias somente para os
+                                    produtos do outro estoque em específico.
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Automatização da Captação de Informações: </strong>Um
+                                    dos objetivos dos desenvolvedores é tornar o aplicativo uma maneira rápida e sem
+                                    problemas na hora de controlar o que entra e sai do estoque. Até o momento,
+                                    o usuário deve informar alguns dados da mercadoria que será incluída no App como
+                                    entrada de produtos no estoque. O mesmo vale na hora de registrar a baixa de um
+                                    produto do estoque: o usuário deve fornecer algumas informações para que o
+                                    aplicativo saiba o que está saindo do estoque.
+                                    <br><br>
+                                    Todavia, o time de programadores está analisando uma maneira de tornar esse processo
+                                    de entrada e saída mais prático, fazendo com que o App consiga captar qual produto
+                                    está sendo retirado do estoque. Sabemos que uma maneira mais rápida do que digitar é
+                                    ler um código de barras ou algum tipo de código que o aplicativo consiga compreender
+                                    e ir buscar a informação que corresponde àquele código.
+                                    <br><br>
+                                    Todos os produtos que chegam ao comércio possuem um código de barras. Esse código de
+                                    barras é a ponte que liga o produto até suas informações que foram registradas no
+                                    servidor do estabelecimento. Há a probabilidade de um possível aperfeiçoamento na
+                                    tela de entradas e saídas do App que visa a leitura do código de barras do produto
+                                    que está entrando e saindo. Assim, o usuário consegue algumas informações do produto
+                                    mais rapidamente apenas lendo o código de barras usando a câmera do dispositivo.
+                                    <br><br>
+                                    Também há uma pesquisa sobre a compreensão e velocidade de leitura da câmera do
+                                    celular quanto ao código de barras em comparação com QR Codes atuando como
+                                    identificadores dos produtos dentro do estoque. <br>
+                                    Para que essa atualização se torne possível, uma análise verifica como integrar o
+                                    servidor do comércio com o aplicativo. Uma vez que a conexão entre ambos forneceria
+                                    o compartilhamento de informações e mais detalhes tanto para o App quanto para o
+                                    Dashboard.
+                                    <br><br>
+                                    Desta maneira, quando o usuário for registrar uma entrada, com o celular, ele lê o
+                                    código de barras do produto (previamente cadastrado no servidor do comércio) usando
+                                    a câmera que será aberta dentro do App Stock It. Uma vez que o aplicativo efetua a
+                                    leitura daquele código de barras, buscará as informações que aquela combinação de
+                                    números armazena, como: <strong>Nome e Forncedor</strong> por exemplo.
+                                    Essa informações serão utilizadas para preencher automaticamente o campo de
+                                    informações da tela que registra a <strong>entrada de produtos no estoque</strong>,
+                                    restando ao usuário somente selecionar informações como quanitdade da entrada e
+                                    local de
+                                    salvamento.
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Rastreamento</strong>Uma
+                                    funcionalidade que pode ser considerada um 'diferencial' do aplicativo é a
+                                    atualização que trará a possibilidade de rastrear as mercadorias de uma forma
+                                    gráfica e dinâmmica. Por ser uma função que pode envolver recursos 3D, é alta a
+                                    probabilidade de um longo período de tempo para o lançamento da atualização.
+                                    <br><br>
+                                    A função de rastreamento 3D diz respeito as seguintes possibilidades: o usuário
+                                    conseguiria criar, de maneira prática e com ferramentas objetivas, prateleiras em
+                                    um ambiente tridimensional dentro do App, com objetivo de reproduzir a aparência de
+                                    seu estoque real. Após isso, seria possível adicionar formas cúbicas (representando
+                                    caixas de papelão/mercadorias/lotes) em alguma superfície de alguma prateleira.
+                                    <br><br>
+                                    Deste modo, com um cenário 3D fiel a seu estoque real, você poderia adicionar caixas
+                                    nas prateleiras e vincular a essas caixas o nome de um produto. <strong>Veja um
+                                        exemplo:</strong>
+                                    <br><br>
+                                    <i>Você tem 3 prateleiras dentro do seu estoque real. Então, no App, você cria um
+                                        ambiente 3D e adiciona 3 prateleiras.<br>
+                                        Chega uma caixa de uma tal mercadoria na sua loja, você então leva essa caixa
+                                        para o estoque e coloca ela na prateleira do meio, na parte de cima. Após isso,
+                                        você abre o aplicativo, registra a entrada daquela mercadoria no estoque e
+                                        depois, no ambiente 3D que você criou, você adiciona a forma de uma caixa na
+                                        terceira prateleira, também na parte de cima e para finalizar seleciona a forma
+                                        de caixa e vincule a ela o produto que você acabou de dar entrada no estoque.
+                                    </i>
+                                    <br><br>
+                                    É dessa meneira que você consegue rastrear as mercadorias dentro do estoque através
+                                    do ambiente 3D do App, uma vez que dentro de um estoque há muitas caixas e com o
+                                    tempo você pode esquecer onde tal mercadoria foi colocada. Também pensamos nos
+                                    dispositivos que não possuem espaço ou processamento suficiente para desempenhar as
+                                    funções que o aplicativo oferece e ainda por cima o rodar o ambiente 3D. Então a
+                                    visualização 3D do rastreamento de mercadorias contará com o modo clássico de
+                                    lista, onde o usuário seleciona o número da prateleira, o nível da prateleira e a
+                                    direção que tal caixa (mercadoria) se encontra.
+                                    <br><br>
+                                    <strong>A representação gráfica para melhor compreensão dessa atualização pode ser
+                                        encontrada no vídeo de apresentação no site do Stock It.</strong>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Sensores RFID: </strong>O Stock It App visa ser um
+                                    aplicativo completo a longo prazo e para comércios maiores, as funções citadas
+                                    acima podem ser mais úteis e vantajosas. Conforme a atualização de rastreamento
+                                    inteligente de mercadorias iniciar seu processo de desenvolvimento, também é
+                                    analisada a comunicação entre sensores RFID e o aplicativo com a finalidade de
+                                    identificar o conteúdo e informações de uma caixa sem precisar move-la do lugar -
+                                    ver informações das mercadorias armazenadas em uma prateleira específica - registrar
+                                    saídas do estoque de maneira rápida.
+                                    <br><br>
+                                    Até o momento, há estudos de como integrar as 3 entidades envolvidas nesse processo:
+                                    <strong>A mercadoria - O estoque - O aplicativo</strong> utilizando sensores RFID
+                                    para realizar as tarefas citadas acima.
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled li-space-lg indent">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Lista de Pendência : </strong>Apesar do aplicativo
+                                    envolver funções que visam a rapidez de ações, sabemos como as vezes, o repositor
+                                    ou funcionário não possui tempo suficiente para organizar as mercadorias da maneira
+                                    correta dentro do estoque e/ou registrar a entrada e saída das mercadorias do estoque.
+                                    <br><br>
+                                    Pensando neste caso, iremos adicionar a opção <strong>Lista de Pendências</strong>
+                                    que coloca eventos incompletos do App, como a entrada ou saída de uma mercadoria, em
+                                    uma lista de pendência. <br><br>
+                                    Vamos supor que chegou 3 caixas na loja, você não tem tempo de fazer o registro da
+                                    entrada daquelas caixas no estoque e nem de cadastrar a localização daquela caixa em
+                                    alguma prateleira, então você coloca somente alguma informação sobre a mercadoria,
+                                    como o nome por exemplo (esse processo pode ser feito manualmente ou automaticamente
+                                    a partir da atualização de automatização citada acima) e seleciona opção
+                                    <strong>Adicionar a Lista de Pendências</strong> para que, posteriormente, você
+                                    possa entrar nessa lista e finalizar os processos incompletos da maneira correta.
+                                    <div id="exclusoes"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="text-container">
+                        <h3>Exclusões e Backups</h3>
+                        <p>O aplicativo oferece as opções de exclusão de perfis ou de listas. Por se tratar de funções
+                            que comprometem a estrutura de dados do aplicativo caso o usuário não saiba utilizar ou faça
+                            mal uso das opções, quando o usuário clica na opção de <strong>Exclusão de Perfil</strong>,
+                            um aviso é enviado ao Dashboard do administrador, para que este confirme a ação e dessa
+                            meneira o perfil é excluído.
+                            <br><br>
+                            Uma vez que o usuário exclui o perfil dele, o mesmo perde acesso ao aplicativo. Sendo que,
+                            para
+                            voltar a utilizar o aplicativo, terá de criar uma conta novamente e ser aprovado pelo
+                            administrador no Dashboard novamente.
+                            <br><br>
+                        <div id="banco-de-dados"></div>
+                        Uma vez que você apaga uma pasta, a lista de produto que havia nela é excluida. E a nova
+                        atualização de Lixeira, pretende armazenar as pastas excluídas por 48 horas, caso o usuário
+                        precise restaurá-la.
+                        <br><br>
+                        Os dados do App ficam armazenados no banco de dado do mesmo. Por isso, a equipe de
+                        desenvolvedores ainda analisa uma forma de fazer Backup períodicamente dos dados do banco de
+                        dados do aplicativo, para fins de segurança a consistência no funcionamento.
+                        </p>
+                    </div>
+                    <div class="text-container">
+                        <h3>Conexões e Banco de Dados</h3>
+                        <p>Até o momento atual, um dos desafios mais complexos da equipe de desenvolvimento é trabalhar na
+                            parte de servidor e banco de dados no aplicativo. <br>
+                            Ainda não podemos alegar se o aplicativo só vai funcionar caso haja conexão com a Internet
+                            ou se o mesmo só vai funcionar caso haja comunicação com o servidor do estabelecimento.
+                            <br><br>
+                        <div id="desafios"></div>
+                        A equipe de desenvolvedores está a procura de mais envolvidos para auxiliar no processo de
+                        confgurações na parte de comunicação. Se você consegue contribuir para o projeto de alguma
+                        forma, entre em contato na seção <strong>CONTATO.</strong>
+                        </p>
+                    </div>
+
+                    <div class="text-container">
+                        <h3>Novos Desafios</h3>
+                        <p>O aplicativo e Dashboard ainda encontram-se em estado de desenvolvimento, como dito várias
+                            vezes. Por conta disso, novos desafios serão encontrados e novidades aparecerão. Com uma
+                            equipe pequena trabalhando no desenvolvimento, o tempo de execução das ideias apresentadas é
+                            indeterminado.
+                            <br><br>
+                            Ainda não se sabe quais serão os obstacúlos encontrados no caminho. Entretando, o objetivo é
+                            desenvolver uma aplicação que corresponda o máximo possível com o que foi apresentado.
+                            <br>Com a supervisão de um tutor e um posterior envolvimento de terceiros, tudo pode se
+                            tornar mais fácil e rápido para o Grupo Stock It.
+                            <br>
+                            <strong>Se você sabe como contribuir, faça parte desse projeto e será muito bem
+                                recepcionado(a)!</strong>
+                        </p>
+                    </div>
+
+                    <div class="text-container last">
+                        <h3 id="info-site">Informações do Site</h3>
+                        <p>O site foi desenvolvido com o intuito de informar e explicar todos os detalhes do aplicativo
+                            e Dashboard. A equipe que desenvolvedores do projeto ressalta que mudanças podem ser aplicadas
+                            tanto no site, quanto na parte funcional e gráfica da versão final da aplicação.
+                            <br><br>
+                            Você pode conferir a documentação técnica do Dashboard na parte do site que corresponde ao
+                            mesmo. Ainda não é possível afirmar em quais linguagens e plataformas a estrutura do
+                            aplicativo será desenvolvida. No momento, a previsão de programação envolve:
+                            <br><br>
+                            <strong>MySQL para o Banco de Dados</strong><br><br>
+                            <strong>HTML 5 - CSS - JS - React para o Site e Dashboard</strong><br><br>
+                            <strong>Java, Android Studio e React Native para o Aplicativo.</strong>
+                        </p>
+                        <a class="btn-outline-reg" href="index.html">BACK</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <a href="index.html">Início</a><i class="fa fa-angle-double-right"></i><span>Documentação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Rodapé -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <h4>Projeto Stock It</h4>
+                        <p>Site desenvolvido para apresentação do projeto mediante aos requerimentos da disciplina
+                            <strong>TCC (ETEC - RODRIGUES DE ABREU).</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-col middle">
+                        <h4>Adicionais</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Instituição: <a class="turquoise"
+                                        href="http://www.etecbauru.com.br">Centro Paula Souza</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Perfis: <a class="turquoise"
+                                        href="https://www.instagram.com/felipeviido/">Felipe Vido</a>, <a
+                                        class="turquoise" href="https://www.instagram.com/alaurapaiva/">Laura Paiva</a>,
+                                    <a class="turquoise" href="https://www.instagram.com/eriq_mart/">Erique Abreu</a>.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-col last">
+                        <h4>Redes Sociais</h4>
+                        <span title="Inativo" class="fa-stack">
+                            <a href="#vazio">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span title="Inativo" class="fa-stack">
+                            <a href="#vazio">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span title="Inativo" class="fa-stack">
+                            <a href="#vazio">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-google-plus-g fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span title="Inativo" class="fa-stack">
+                            <a href="#vazio">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span title="Inativo" class="fa-stack">
+                            <a href="#vazio">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Direitos -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © Stock It - Para Fins Institucionais. Apoio <a
+                            href="https://www.flowcode.com/page/technowarecompany">TechnoWare Company</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/morphext.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
